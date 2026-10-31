@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tự Động Chạm</string>
+    <string name="accessibility_description">Cho phép ứng dụng thực hiện các thao tác chạm và vuốt lặp lại trên màn hình theo cài đặt của bạn.</string>
+
+    <string name="status_on">● Dịch vụ trợ năng đang bật</string>
+    <string name="status_off">○ Dịch vụ trợ năng chưa bật</string>
+
+    <string name="steps">Cách dùng:\n1. Nhấn “Bật dịch vụ trợ năng”, tìm “Tự Động Chạm” và bật lên.\n2. Một thanh điều khiển nổi sẽ hiện trên màn hình.\n3. Mở ứng dụng bạn muốn thao tác, kéo chấm A (và chấm B nếu chọn Vuốt) tới đúng vị trí.\n4. Nhấn ▶ Bắt đầu. Nhấn ■ Dừng để dừng lại.</string>
+    <string name="restricted_hint">Nếu nút bật dịch vụ bị mờ (Android 13 trở lên, app cài từ file APK): mở “Thông tin ứng dụng”, nhấn dấu ⋮ ở góc trên rồi chọn “Cho phép cài đặt bị hạn chế”.</string>
+
+    <string name="btn_accessibility">Bật dịch vụ trợ năng</string>
+    <string name="btn_app_info">Mở thông tin ứng dụng</string>
+
+    <string name="label_mode">Kiểu thao tác</string>
+    <string name="mode_tap">Chạm một điểm (chấm A)</string>
+    <string name="mode_swipe">Vuốt từ chấm A đến chấm B</string>
+
+    <string name="label_interval">Khoảng nghỉ giữa các lần (mili giây)</string>
+    <string name="label_repeat">Số lần lặp (0 = lặp mãi đến khi dừng)</string>
+    <string name="label_swipe_duration">Thời gian mỗi lần vuốt (mili giây)</string>
+
+    <string name="btn_apply">Lưu và hiện thanh điều khiển</string>
+
+    <string name="toast_saved">Đã lưu và hiện thanh điều khiển nổi</string>
+    <string name="toast_need_service">Hãy bật dịch vụ trợ năng trước</string>
+    <string name="toast_hidden">Đã ẩn thanh điều khiển. Mở ứng dụng để hiện lại.</string>
+    <string name="toast_done">Hoàn tất %1$d lần</string>
+    <string name="toast_gesture_failed">Không gửi được thao tác. Hãy kiểm tra dịch vụ trợ năng.</string>
+
+    <string name="bar_start">▶ Bắt đầu</string>
+    <string name="bar_stop">■ Dừng</string>
+    <string name="bar_mode_tap">Chạm</string>
+    <string name="bar_mode_swipe">Vuốt A→B</string>
+</resources>
